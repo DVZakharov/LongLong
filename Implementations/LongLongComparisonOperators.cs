@@ -6,6 +6,9 @@ public partial class LongLong : IComparisonOperators<LongLong, LongLong, bool>
 {
     public override bool Equals(object? obj)
     {
+        if (obj == null)
+            return false;
+
         if (base.Equals(obj))
             return true;
 

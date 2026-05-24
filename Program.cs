@@ -3,7 +3,7 @@ using CompositeLong;
 public class Program
 {
     public static void Main(string[] args)
-    {
+    {               
         Console.WriteLine("================= Программа для работы с 128 битными числами ================");
         LongLong a = GetLongLongFromCMD("Введите первое число: ");
         LongLong b = GetLongLongFromCMD("Введите второе число: ");
